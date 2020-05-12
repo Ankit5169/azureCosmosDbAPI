@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azureCosmosDbApi", "azureCosmosDbApi\azureCosmosDbApi.csproj", "{9ECC102F-0E01-464E-8DE9-F393B5ACA0EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ECC102F-0E01-464E-8DE9-F393B5ACA0EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECC102F-0E01-464E-8DE9-F393B5ACA0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ECC102F-0E01-464E-8DE9-F393B5ACA0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ECC102F-0E01-464E-8DE9-F393B5ACA0EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FB50B8D-6A7E-430B-9DB0-A2AF18CAD0FE}
+	EndGlobalSection
+EndGlobal
