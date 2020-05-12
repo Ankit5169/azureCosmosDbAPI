@@ -16,12 +16,12 @@ namespace azureCosmosDbApi.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-        string database = "maindb";
-        string containerName = "employee";
+        string database = "XXXXXX";
+        string containerName = "XXXXXX";
         DocumentClient dc;
 
-        Uri endpoint = new Uri("https://ap-azure-cosmos-db.documents.azure.com:443/");
-        string key = "U2gNEWL4AJqNX9IVLo0bXmbXatdQWpgiwKYtkARgXHJ4hR8vNEfpToZaDn4shggtxoWqPYHutR830v3wVKtaAg==";
+        Uri endpoint = new Uri("https://XX-XXX-XXXXX-XX.documents.azure.com:XXXX/");
+        string key = "U2gNEWL4AJqNX9IVLo0bXmbXatdQWpgiRgXHJ4hR8vNEfpToZaDn4shggtxoWqPYHutR830v3wVKtaAg==";
 
         // GET: api/Employee
         [HttpGet]
